@@ -1,0 +1,15 @@
+﻿@model WebApplication2.Models.MyDbContext
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Hello Create</h2>
+
+<form action="Save" method="post">
+    <p><strong>Product Name</strong></p>
+    <input name="name" /><br />
+    <p><strong>Price</strong></p>
+    <input name="price" /><p><br />
+    <button type="submit" class="danger">Submit</button>
+</form>
